@@ -1,0 +1,19 @@
+/*css padrão*/
+@import "tailwindcss";
+
+.icon{
+    animation: fadeIn 2s ease-in-out;
+
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.shadow-top{
+    box-shadow: inset 0 -4px 30px -2px rgba(0, 0, 0, 0.5);
+}
